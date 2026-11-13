@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#075548">
+  <meta name="description" content="CHMED – Ciencias Humanidades Médicas. Formación virtual en Biología, Anatomía y Fisiología.">
+  <title>CHMED | Ciencias Humanidades Médicas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="CHMED, inicio">
+      <img src="assets/logo-chmed.jpg" alt="Logotipo de CHMED">
+      <span><strong>CHMED</strong><small>CIENCIAS HUMANIDADES MÉDICAS</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#modalidad">Modalidad</a>
+      <a href="#examenes">Recursos</a>
+      <a class="nav-cta" href="#inscripcion">Inscribirme</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">FORMACIÓN ACADÉMICA VIRTUAL · TACNA, PERÚ</span>
+        <h1>Comprende la ciencia. <em>Fortalece tu formación.</em></h1>
+        <p>Aprende Biología, Anatomía y Fisiología con una propuesta académica organizada, recursos de estudio y acompañamiento docente.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#cursos">Explorar cursos</a>
+          <a class="button button-outline" href="#inscripcion">Solicitar información</a>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> Clases virtuales en vivo y grabadas</div>
+      </div>
+      <div class="hero-art">
+        <img src="assets/logo-chmed.jpg" alt="Emblema institucional CHMED">
+        <div class="art-caption">Ciencias · Humanidades · Medicina</div>
+      </div>
+    </section>
+
+    <section class="intro section-wrap" id="nosotros">
+      <div class="section-heading">
+        <span class="eyebrow">QUIÉNES SOMOS</span>
+        <h2>Una formación centrada en el conocimiento</h2>
+      </div>
+      <p>CHMED – Ciencias Humanidades Médicas es una academia de enseñanza especializada en Biología, Anatomía y Fisiología. Nuestra propuesta está dirigida a postulantes, estudiantes universitarios y estudiantes de institutos que desean fortalecer sus conocimientos en ciencias.</p>
+    </section>
+
+    <section class="courses section-wrap" id="cursos">
+      <div class="section-heading">
+        <span class="eyebrow">OFERTA ACADÉMICA</span>
+        <h2>Áreas de aprendizaje</h2>
+        <p>Los cursos y paquetes disponibles, sus fechas y precios se anunciarán en cada convocatoria.</p>
+      </div>
+      <div class="course-grid">
+        <article class="course-card">
+          <div class="course-icon">🧬</div>
+          <h3>Biología</h3>
+          <p>Fundamentos de biología, biología celular, genética y procesos biológicos.</p>
+          <a href="#inscripcion">Consultar próxima convocatoria →</a>
+        </article>
+        <article class="course-card">
+          <div class="course-icon">⚕</div>
+          <h3>Anatomía humana</h3>
+          <p>Estudio organizado de las estructuras del cuerpo humano y sus sistemas.</p>
+          <a href="#inscripcion">Consultar próxima convocatoria →</a>
+        </article>
+        <article class="course-card">
+          <div class="course-icon">♡</div>
+          <h3>Fisiología humana</h3>
+          <p>Comprensión del funcionamiento del organismo y de sus principales sistemas.</p>
+          <a href="#inscripcion">Consultar próxima convocatoria →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="learning-band section-wrap" id="modalidad">
+      <div>
+        <span class="eyebrow">EXPERIENCIA CHMED</span>
+        <h2>Aprende desde donde estés</h2>
+        <p>Las clases se desarrollan virtualmente. Se combinan sesiones en vivo mediante Google Meet con grabaciones y materiales de apoyo, según las condiciones de cada curso.</p>
+      </div>
+      <div class="feature-list">
+        <div><span>01</span><p><strong>Clases en vivo</strong><small>Sesiones programadas por convocatoria.</small></p></div>
+        <div><span>02</span><p><strong>Clases grabadas</strong><small>Consulta posterior según disponibilidad y condiciones del curso.</small></p></div>
+        <div><span>03</span><p><strong>Recursos académicos</strong><small>Materiales y actividades de aprendizaje.</small></p></div>
+      </div>
+    </section>
+
+    <section class="resources section-wrap" id="examenes">
+      <div class="section-heading">
+        <span class="eyebrow">RECURSOS ACADÉMICOS</span>
+        <h2>Preparación y práctica</h2>
+      </div>
+      <div class="resource-box">
+        <div><h3>Banco de evaluaciones</h3><p>La disponibilidad de prácticas, cuestionarios y simulacros se comunicará en cada curso o convocatoria.</p></div>
+        <span class="resource-mark">CHMED</span>
+      </div>
+    </section>
+
+    <section class="enroll-section" id="inscripcion">
+      <div class="enroll-copy">
+        <span class="eyebrow">PRÓXIMAS CONVOCATORIAS</span>
+        <h2>Solicita información sobre tu matrícula</h2>
+        <p>Completa tus datos para consultar los cursos disponibles, sus fechas, precios y modalidades de pago. La inscripción quedará confirmada únicamente después de la validación correspondiente.</p>
+        <div class="contact-mini">
+          <p><strong>Correo:</strong> chmedestudios045@gmail.com</p>
+          <p><strong>WhatsApp:</strong> 946 042 074</p>
+        </div>
+      </div>
+      <form id="enrollmentForm" class="enroll-form">
+        <label>Nombre completo<input name="nombre" autocomplete="name" required placeholder="Escribe tus nombres y apellidos"></label>
+        <label>Correo electrónico<input name="correo" type="email" autocomplete="email" required placeholder="nombre@correo.com"></label>
+        <label>WhatsApp<input name="telefono" type="tel" autocomplete="tel" required placeholder="Tu número de contacto"></label>
+        <label>Perfil académico
+          <select name="perfil" required>
+            <option value="">Selecciona una opción</option>
+            <option>Postulante</option>
+            <option>Estudiante universitario</option>
+            <option>Estudiante de instituto</option>
+            <option>Otro</option>
+          </select>
+        </label>
+        <label>Curso o paquete de interés
+          <select name="curso" required>
+            <option value="">Selecciona una opción</option>
+            <option>Biología</option>
+            <option>Anatomía humana</option>
+            <option>Fisiología humana</option>
+            <option>Paquete integral (Biología + Anatomía + Fisiología)</option>
+            <option>Deseo recibir orientación</option>
+          </select>
+        </label>
+        <button class="button button-primary" type="submit">Enviar solicitud por correo</button>
+        <small class="form-note">Este formulario abre tu aplicación de correo. Aún no registra matrículas en una base de datos.</small>
+        <p id="formMessage" class="form-message" role="status"></p>
+      </form>
+    </section>
+
+    <section class="payment-info section-wrap">
+      <div>
+        <span class="eyebrow">MEDIOS DE PAGO</span>
+        <h2>Pagos por Yape</h2>
+        <p>El QR institucional se utilizará cuando el administrador comunique el importe correspondiente a una convocatoria. Antes de pagar, confirma el monto y los datos de la operación con CHMED.</p>
+        <p class="payment-warning">No realices pagos hasta recibir la información de precio y matrícula de tu curso.</p>
+      </div>
+      <div class="qr-card">
+        <img src="assets/yape-qr.png" alt="Código QR de Yape proporcionado por CHMED">
+        <strong>QR de pagos CHMED</strong>
+        <small>Verifica siempre el importe antes de realizar una operación.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><strong>CHMED</strong><span>Ciencias Humanidades Médicas</span></div>
+    <div class="footer-contact">
+      <a href="mailto:chmedestudios045@gmail.com">chmedestudios045@gmail.com</a>
+      <a href="https://wa.me/51946042074" target="_blank" rel="noopener">WhatsApp: 946 042 074</a>
+      <span>Tacna, Perú · Modalidad virtual</span>
+      <span>Instagram: @chmed152 · TikTok: @chmedestudios</span>
+    </div>
+    <small>© <span id="year"></span> CHMED – Ciencias Humanidades Médicas</small>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+    menuToggle.addEventListener('click', () => {
+      const open = mainNav.classList.toggle('is-open');
+      menuToggle.setAttribute('aria-expanded', String(open));
+    });
+    mainNav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      mainNav.classList.remove('is-open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    document.getElementById('enrollmentForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const data = new FormData(this);
+      const subject = encodeURIComponent('Solicitud de información – CHMED');
+      const body = encodeURIComponent(
+        'Solicitud de información para CHMED\\n\\n' +
+        'Nombre: ' + data.get('nombre') + '\\n' +
+        'Correo: ' + data.get('correo') + '\\n' +
+        'WhatsApp: ' + data.get('telefono') + '\\n' +
+        'Perfil: ' + data.get('perfil') + '\\n' +
+        'Interés: ' + data.get('curso')
+      );
+      document.getElementById('formMessage').textContent = 'Se abrirá tu aplicación de correo para enviar la solicitud.';
+      window.location.href = 'mailto:chmedestudios045@gmail.com?subject=' + subject + '&body=' + body;
+    });
+  </script>
+</body>
+</html>

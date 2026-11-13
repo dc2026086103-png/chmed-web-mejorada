@@ -1,0 +1,21 @@
+CHMED – versión inicial de rediseño visual
+================================================
+
+Contenido:
+- index.html: página pública de CHMED.
+- style.css: identidad visual adaptable.
+- assets/logo-chmed.jpg: logotipo proporcionado.
+- assets/yape-qr.png: QR de Yape proporcionado.
+
+IMPORTANTE:
+Esta versión es una página pública estática. El formulario abre el correo del usuario y NO guarda matrículas en una base de datos.
+El QR se muestra como referencia de pago; no valida operaciones ni confirma pagos.
+Todavía no incluye autenticación, panel administrativo real, base de datos, gestión de cuotas ni integración con Google Meet.
+Esas funciones requieren configurar un backend y almacenamiento seguro antes de publicar.
+
+Para probar:
+Abrir index.html en un navegador.
+
+Para Vercel:
+Subir el contenido de esta carpeta a un repositorio Git conectado a Vercel o desplegar la carpeta como proyecto estático.
+No reemplazar el despliegue actual hasta probar esta versión y conservar una copia de seguridad.
